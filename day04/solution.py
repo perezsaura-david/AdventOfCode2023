@@ -6,7 +6,7 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from base import aoc_solver
 
-parser = argparse.ArgumentParser(description='Day 1: Calorie Counting')
+parser = argparse.ArgumentParser(description='Day 4: Scratchcards')
 parser.add_argument('input', help='Input file to read from.')
 parser.add_argument('mode', help='"a" or "b"')
 

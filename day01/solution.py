@@ -1,6 +1,6 @@
 import os, argparse
 import numpy as np
-parser = argparse.ArgumentParser(description='Day 1: Calorie Counting')
+parser = argparse.ArgumentParser(description='Day 1: Trebuchet?!')
 parser.add_argument('input', help='Input file to read from.')
 parser.add_argument('mode', help='"digits" or "c_digits"')
 
