@@ -63,7 +63,7 @@ class Hand:
     def __ge__(self, other):
         return self.cards_code >= other.cards_code
 
-class Solver06(aoc_solver):
+class Solver07(aoc_solver):
     def __init__(self):
         self.hands = []
         self.hand_groups = []
@@ -220,7 +220,7 @@ if __name__ == '__main__':
         print('Input file does not exist.')
         exit(1)
 
-    solver = Solver06()
+    solver = Solver07()
     if args.mode == 'a':
         solver.solve_a(args.input)
     elif args.mode == 'b':
